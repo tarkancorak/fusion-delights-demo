@@ -5,9 +5,9 @@ import "./globals.css";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Fusion Delights - Demo: Chatbot-Integration für Restaurants mit KI",
+  title: "Fusion Delights - Demo: Chatbot-Integration für Restaurants",
   description:
-    "Diese Webseite demonstriert die Integration eines Chatbots für Restaurants und stellt kein echtes Restaurant dar.",
+    "Diese Webseite demonstriert die Integration eines KI-unterstützen Chatbots für Restaurants.",
   robots: "noindex,follow",
 };
 
