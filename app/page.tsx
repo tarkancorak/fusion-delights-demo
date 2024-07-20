@@ -345,7 +345,7 @@ const Home: React.FC = () => {
             size: 72,
             dragAndDrop: true,
             iconColor: "white",
-            customIconSrc: "/milo_avatar_transparent_bubble.jpg",
+            customIconSrc: "/milo_avatar.png",
           },
           chatWindow: {
             welcomeMessage:
