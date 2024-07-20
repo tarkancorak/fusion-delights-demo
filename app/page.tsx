@@ -340,6 +340,12 @@ const Home: React.FC = () => {
         theme={{
           button: {
             backgroundColor: "#202A37",
+            right: 20,
+            bottom: 20,
+            size: 72,
+            dragAndDrop: true,
+            iconColor: "white",
+            customIconSrc: "/milo_avatar_transparent_bubble.jpg",
           },
           chatWindow: {
             welcomeMessage:
