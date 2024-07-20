@@ -3,6 +3,7 @@
 import React, { useState } from "react";
 import { FaBars, FaTimes } from "react-icons/fa";
 import Image from "next/image";
+import { BubbleChat } from "flowise-embed-react";
 
 const Home: React.FC = () => {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -333,6 +334,40 @@ const Home: React.FC = () => {
           </p>
         </div>
       </footer>
+      <BubbleChat
+        chatflowid={process.env.NEXT_PUBLIC_CHATFLOW_ID!}
+        apiHost={process.env.NEXT_PUBLIC_CHATFLOW_API_HOST}
+        theme={{
+          button: {
+            backgroundColor: "#202A37",
+          },
+          chatWindow: {
+            welcomeMessage:
+              "Hallo! Ich bin Milo, dein virtueller Gastgeber. Wie kann ich dir heute helfen?",
+            textInput: {
+              sendButtonColor: "#202A37",
+              textColor: "#202A37",
+            },
+            userMessage: {
+              showAvatar: true,
+              avatarSrc: "/account.png",
+              backgroundColor: "#F4EBC0",
+              textColor: "#202A37",
+            },
+            botMessage: {
+              backgroundColor: "#f7f8ff",
+              textColor: "#303235",
+              showAvatar: true,
+              avatarSrc: "/milo_avatar_transparent.png",
+            },
+            footer: {
+              showFooter: true,
+              company: "METAMARE",
+              companyLink: "https://metamare.de/",
+            },
+          },
+        }}
+      />
     </div>
   );
 };
