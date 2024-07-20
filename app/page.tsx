@@ -131,14 +131,36 @@ const Home: React.FC = () => {
       <section id='about' className='py-16 bg-gray-50'>
         <div className='container mx-auto px-4'>
           <h2 className='text-4xl font-bold text-center mb-8'>Über uns</h2>
-          <div className='text-center max-w-2xl mx-auto'>
-            <p>
+          <div className='max-w-xl mx-auto'>
+            <p className='text-center'>
               Willkommen bei Fusion Delights - Demo, Ihrem fiktiven
               kulinarischen Reiseziel für außergewöhnliche Fusion-Küche, die
               asiatische und internationale Aromen auf innovative Weise vereint.
               Diese Seite dient nur Demonstrationszwecken und stellt kein echtes
               Restaurant dar.
             </p>
+            <div
+              className='mt-4 bg-blue-50 border-t-4 border-blue-400 rounded-b text-blue-900 px-4 py-3 shadow-md'
+              role='alert'
+            >
+              <div className='flex'>
+                <div className='py-1'>
+                  <svg
+                    className='fill-current h-6 w-6 text-blue-500 mr-4'
+                    xmlns='http://www.w3.org/2000/svg'
+                    viewBox='0 0 20 20'
+                  >
+                    <path d='M2.93 17.07A10 10 0 1 1 17.07 2.93 10 10 0 0 1 2.93 17.07zm12.73-1.41A8 8 0 1 0 4.34 4.34a8 8 0 0 0 11.32 11.32zM9 11V9h2v6H9v-4zm0-6h2v2H9V5z' />
+                  </svg>
+                </div>
+                <div>
+                  <p className='text-sm'>
+                    Nutze das Icon unten rechts, um eine Unterhaltung mit Milo,
+                    unserem virtuellen Restaurantassistenten, zu beginnen.
+                  </p>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </section>
