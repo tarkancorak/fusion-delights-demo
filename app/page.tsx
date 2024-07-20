@@ -348,6 +348,8 @@ const Home: React.FC = () => {
             customIconSrc: "/milo_avatar.png",
           },
           chatWindow: {
+            showTitle: true,
+            title: "Fusion Delights - Demo",
             welcomeMessage:
               "Hallo! Ich bin Milo, dein virtueller Gastgeber. Wie kann ich dir heute helfen?",
             textInput: {
