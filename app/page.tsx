@@ -353,6 +353,7 @@ const Home: React.FC = () => {
             welcomeMessage:
               "Hallo! Ich bin Milo, dein virtueller Gastgeber. Wie kann ich dir heute helfen?",
             textInput: {
+              placeholder: "Bitte Frage eingeben",
               sendButtonColor: "#202A37",
               textColor: "#202A37",
             },
