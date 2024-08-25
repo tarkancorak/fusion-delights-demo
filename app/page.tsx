@@ -364,7 +364,7 @@ const Home: React.FC = () => {
             backgroundColor: "#202A37",
             right: 20,
             bottom: 20,
-            size: 72,
+            size: 60,
             dragAndDrop: true,
             iconColor: "white",
             customIconSrc: "/milo_avatar.png",
