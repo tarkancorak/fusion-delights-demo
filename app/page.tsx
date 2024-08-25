@@ -117,12 +117,6 @@ const Home: React.FC = () => {
               Erleben Sie das Beste aus asiatischer und internationaler
               Fusionsküche
             </p>
-            <a
-              href='#reservations'
-              className='bg-yellow-500 text-gray-800 px-4 py-2 rounded hover:bg-yellow-400'
-            >
-              Reservieren Sie jetzt
-            </a>
           </div>
         </div>
       </section>
