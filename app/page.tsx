@@ -15,7 +15,7 @@ const Home: React.FC = () => {
   return (
     <div className='bg-gray-100 text-gray-800'>
       {/* Notification Banner */}
-      <div className='sticky top-0 w-full bg-gray-800 text-white text-center text-lg py-4 z-50'>
+      <div className='sticky top-0 w-full bg-gray-200 text-black text-center text-lg py-4 z-50'>
         Diese Seite dient nur Demonstrationszwecken und stellt kein echtes
         Restaurant dar!
       </div>
